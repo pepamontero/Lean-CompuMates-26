@@ -25,3 +25,17 @@ listos para abrir en el editor. El paso `buildExercises` de
 
 * [P01Introduccion.lean](Apuntes/P01Introduccion.lean): qué es Lean, instalación y organización del curso.
 * [P02LeanProver.lean](Apuntes/P02LeanProver.lean): teoría de tipos, proposiciones y primeras tácticas (`intro`, `exact`, `apply ... at ...`, `unfold`).
+
+## Licencia
+
+Autores: Pepa Montero Jimena, Enrique Díaz Blanco y Jorge Carmona Ruber.
+
+* El texto de los apuntes se publica bajo
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es): puedes
+  copiarlo y adaptarlo, también en otros cursos, citando a los autores.
+* El código (los ficheros `.lean` como código Lean y los ejemplos que se
+  extraen de ellos) se publica bajo [Apache 2.0](LICENSE).
+
+El proyecto parte de la plantilla de libro de
+[Verso](https://github.com/leanprover/verso), © 2024-2025 Lean FRO LLC, bajo
+Apache 2.0. Los ficheros que vienen de ella lo indican en su cabecera.
