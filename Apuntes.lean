@@ -35,11 +35,18 @@ set_option pp.rawOnError true
 authors := ["Pepa Montero, Enrique Díaz & Jorge Carmona"]
 %%%
 
-Apuntes para el curso de Lean en CompuMates 2026 - 2027.
+Apuntes para el curso de Lean en CompuMates 2026.
 
-Una pequeña introducción informal sobre qué es Lean y el interés que tiene y el objetivo del curso.
+Estos son los apuntes del curso de introducción a Lean que impartimos en CompuMates. Recogen lo
+que contamos en clase, con ejemplos que puedes copiar a tu editor y ejercicios para practicar.
+
+Los capítulos siguen el orden de las clases. La primera clase incluye la introducción, en la que contamos qué es Lean, por qué
+merece la pena formalizar matemáticas y cómo instalar lo necesario, y también el segundo capítulo "Lean Theorem Prover", en el que
+empezamos a escribir código y nuestras primeras demostraciones.
+
+Iremos publicando el resto de
+capítulos a medida que avance el curso.
 
 {include 1 Apuntes.P01Introduccion}
 
 {include 1 Apuntes.P02LeanProver}
-
