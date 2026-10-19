@@ -119,6 +119,9 @@ formalizadas con estándares muy estrictos, tanto de calidad del código como de
 Durante el curso nos vamos a apoyar en Mathlib constantemente, para poder echar mano de objetos y
 resultados que ya están ahí y no tener que definir las matemáticas desde cero.
 
+La comunidad se reúne en el [*Zulip de Lean*](https://leanprover.zulipchat.com), un chat público
+donde puedes preguntar cualquier duda. El canal `#new members` está pensado para usuarios que acaban de empezar.
+
 # Este curso
 
 Algunas cuestiones prácticas antes de meter las manos en la masa.
