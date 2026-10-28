@@ -328,7 +328,7 @@ empieza a aparecer información en el InfoView, la ventana de la derecha. Eso qu
 *estado de la demostración*, y tiene dos partes:
 
 ```
-P Q R : Prop
+P : Prop
 ⊢ P → P
 ```
 
@@ -432,7 +432,7 @@ example : P → Q → P := by sorry
 ```
 
 :::demostracion
-```lean
+```savedLean
 example : P → Q → P := by
   intro h hQ
   exact h
@@ -452,7 +452,7 @@ example : P → Q → R → Q := by sorry
 ```
 
 :::demostracion
-```lean
+```savedLean
 example : P → Q → R → Q := by
   intro hP hQ hR
   exact hQ
@@ -468,7 +468,7 @@ example : (P → Q) → (P → Q) := by sorry
 ```
 
 :::demostracion
-```lean
+```savedLean
 example : (P → Q) → (P → Q) := by
   intro hpq
   exact hpq
@@ -527,7 +527,7 @@ example : (P → Q) → (Q → R) → P → R := by sorry
 ```
 
 :::demostracion
-```lean
+```savedLean
 example : (P → Q) → (Q → R) → P → R := by
   intro hPQ hQR hP
   apply hPQ at hP
@@ -548,7 +548,7 @@ example : (P → Q → R) → P → Q → R := by sorry
 ```
 
 :::demostracion
-```lean
+```savedLean
 example : (P → Q → R) → P → Q → R := by
   intro h hP hQ
   apply h at hP
@@ -609,7 +609,7 @@ example : (P → Q) → (Q → R) → P → R := by sorry
 ```
 
 :::demostracion
-```lean
+```savedLean
 example : (P → Q) → (Q → R) → P → R := by
   intro hPQ hQR hP
   exact hQR (hPQ hP)
@@ -767,7 +767,7 @@ example (hf : inyectiva f) (hg : inyectiva g) :
 ```
 
 :::demostracion
-```lean
+```savedLean
 example (hf : inyectiva f) (hg : inyectiva g) :
     inyectiva (g ∘ f) := by
   unfold inyectiva at *
@@ -789,7 +789,7 @@ example (h : ℝ → ℝ) (hf : inyectiva f) (hg : inyectiva g)
 ```
 
 :::demostracion
-```lean
+```savedLean
 example (h : ℝ → ℝ) (hf : inyectiva f) (hg : inyectiva g)
     (hh : inyectiva h) :
     inyectiva (h ∘ g ∘ f) := by
@@ -828,7 +828,7 @@ example (hf : creciente f) (hg : creciente g) :
 :::
 
 :::demostracion
-```lean
+```savedLean
 example (hf : creciente f) (hg : creciente g) :
     creciente (g ∘ f) := by
   unfold creciente at *

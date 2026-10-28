@@ -146,6 +146,11 @@ Los apuntes siguen el orden de las clases. Un par de convenios que te vas a enco
 * Cada vez que aparece una táctica nueva la presentamos en un recuadro naranja como el que verás
   en la clase siguiente, con una explicación y una tabla de antes y después. Esas tablas son lo
   más útil para consultar mientras haces los ejercicios.
+* Al final de cada capítulo hay una sección *Archivos Lean* con todo su código en un archivo
+  `.lean`, que puedes descargar o abrir directamente en [Lean web](https://live.lean-lang.org). Hay dos versiones: el *esqueleto*, con los ejemplos y los enunciados de los
+  ejercicios por resolver, y las *soluciones*, con los
+  ejercicios ya resueltos. La idea es trabajar sobre el esqueleto y mirar las soluciones solo
+  cuando te atasques.
 
 ## Estructura del curso
 

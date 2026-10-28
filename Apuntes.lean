@@ -13,10 +13,12 @@ import Apuntes.Meta.Lean
 import Apuntes.Meta.NuevaTactica
 import Apuntes.Meta.Estilo
 import Apuntes.Meta.Teorema
+import Apuntes.Meta.Descargas
 
 -- This is a chapter that's included
 import Apuntes.P01Introduccion
 import Apuntes.P02LeanProver
+import Apuntes.P03Logica
 
 -- This gets access to most of the manual genre (which is also useful for textbooks)
 open Verso.Genre Manual
@@ -40,13 +42,18 @@ Apuntes para el curso de Lean en CompuMates 2026.
 Estos son los apuntes del curso de introducción a Lean que impartimos en CompuMates. Recogen lo
 que contamos en clase, con ejemplos que puedes copiar a tu editor y ejercicios para practicar.
 
-Los capítulos siguen el orden de las clases. La primera clase incluye la introducción, en la que contamos qué es Lean, por qué
-merece la pena formalizar matemáticas y cómo instalar lo necesario, y también el segundo capítulo "Lean Theorem Prover", en el que
-empezamos a escribir código y nuestras primeras demostraciones.
+Los capítulos siguen el orden de las clases:
 
-Iremos publicando el resto de
-capítulos a medida que avance el curso.
+* La primera clase incluye la introducción, en la que contamos qué es Lean, por qué merece la pena
+  formalizar matemáticas y cómo instalar lo necesario, y también el segundo capítulo, "Lean Theorem
+  Prover", en el que empezamos a escribir código y nuestras primeras demostraciones.
+* La segunda clase corresponde al tercer capítulo, en el que aprendemos a trabajar con los
+  conectores lógicos y los cuantificadores.
+
+Iremos publicando el resto de capítulos a medida que avance el curso.
 
 {include 1 Apuntes.P01Introduccion}
 
 {include 1 Apuntes.P02LeanProver}
+
+{include 1 Apuntes.P03Logica}

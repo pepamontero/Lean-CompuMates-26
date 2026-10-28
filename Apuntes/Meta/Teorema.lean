@@ -148,9 +148,9 @@ def ejercicio : DirectiveExpanderOf EntornoConfig := entornoDirectiva "ejercicio
 Bloques plegados para los ejercicios: solo se ve su título y hay que pulsarlo para desplegarlos.
 
 * `:::enunciado` guarda el enunciado en Lean, para los ejercicios en los que queremos que el
-  alumno lo escriba primero. Su código se copia al archivo de ejemplos como cualquier otro.
+  alumno lo escriba primero. Como cualquier enunciado, su código va solo al archivo de ejercicios.
 * `:::demostracion` guarda la demostración. Su código se comprueba igual que el resto, pero
-  `buildExercises` (en `ApuntesMain`) no lo copia al archivo de ejemplos.
+  `buildExercises` (en `ApuntesMain`) lo copia solo al archivo de soluciones.
 -/
 def plegableHtml (clase titulo : String) (contenido : Verso.Output.Html) : Verso.Output.Html :=
   open Verso.Output.Html in
@@ -215,7 +215,7 @@ def enunciado : DirectiveExpanderOf Unit
     let args ← stxs.mapM elabBlock
     ``(Verso.Doc.Block.other Block.enunciado #[ $[ $args ],* ])
 
-/-- La demostración de un ejercicio, plegada. No se copia al archivo de ejemplos. -/
+/-- La demostración de un ejercicio, plegada. Se copia solo al archivo de soluciones. -/
 @[directive]
 def demostracion : DirectiveExpanderOf Unit
   | (), stxs => do
