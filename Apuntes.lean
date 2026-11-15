@@ -19,6 +19,7 @@ import Apuntes.Meta.Descargas
 import Apuntes.P01Introduccion
 import Apuntes.P02LeanProver
 import Apuntes.P03Logica
+import Apuntes.P04NumerosReales
 
 -- This gets access to most of the manual genre (which is also useful for textbooks)
 open Verso.Genre Manual
@@ -49,6 +50,8 @@ Los capítulos siguen el orden de las clases:
   Prover", en el que empezamos a escribir código y nuestras primeras demostraciones.
 * La segunda clase corresponde al tercer capítulo, en el que aprendemos a trabajar con los
   conectores lógicos y los cuantificadores.
+* La tercera clase corresponde al cuarto capítulo, en
+  el que trabajamos con propiedades de números reales, igualdades y desigualdades, sucesiones convergentes y funciones continuas.
 
 Iremos publicando el resto de capítulos a medida que avance el curso.
 
@@ -57,3 +60,5 @@ Iremos publicando el resto de capítulos a medida que avance el curso.
 {include 1 Apuntes.P02LeanProver}
 
 {include 1 Apuntes.P03Logica}
+
+{include 1 Apuntes.P04NumerosReales}

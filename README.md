@@ -20,6 +20,7 @@ abrirlo directamente en [Lean web](https://live.lean-lang.org). Estas dos versio
 * [P01Introduccion.lean](Apuntes/P01Introduccion.lean): qué es Lean, instalación y organización del curso.
 * [P02LeanProver.lean](Apuntes/P02LeanProver.lean): teoría de tipos, proposiciones y primeras tácticas (`intro`, `exact`, `apply ... at ...`, `unfold`).
 * [P03Logica.lean](Apuntes/P03Logica.lean): conectores lógicos (`∧`, `∨`, `¬`, `↔`) y cuantificadores (`∀`, `∃`), con las tácticas `constructor`, `obtain`, `left` / `right`, `rcases`, `rfl`, `by_contra`, `apply`, `specialize` y `use`.
+* [P04NumerosReales.lean](Apuntes/P04NumerosReales.lean): números reales, valor absoluto, sucesiones convergentes y funciones continuas, con las tácticas `norm_num`, `linarith`, `ring`, `rw`, `have` y `exact?`.
 
 ## Compilar en local
 
